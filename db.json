@@ -1,0 +1,12 @@
+{
+  "users": [
+    { "id": "1", "email": "john@example.com", "password": "123456", "role":"WAITER" },
+    { "id": "2", "email": "doe@example.com", "password": "654321", "role":"KITCHEN_COORDINATOR" }
+  ],
+  "orders": [
+    { "id": "1456", "timestamp":"1648713556", "order": "Kottu full", "status": "NEW", "price":10200 },
+    { "id": "2566", "timestamp":"1648713587", "order": "String hoppers", "status": "CONFIRMED", "price":2505 },
+    { "id": "3456", "timestamp":"1648713594", "order": "Kottu full", "status": "READY", "price":4325 },
+    { "id": "5786", "timestamp":"1648713601", "order": "Kottu full", "status": "DELIVERED", "price":7562 }
+  ]
+}
